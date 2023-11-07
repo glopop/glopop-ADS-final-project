@@ -1,0 +1,15 @@
+import random
+import pygame 
+import random
+import sys
+import time
+from typing import List, Tuple
+
+hand = [] # empty
+
+def randomNumGen(range):
+    return randomint(range[1], range[13])
+
+    random_number = RandomNumberGeneration((1, 100))
+print("Random number:", random_number)
+print("")
